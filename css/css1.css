@@ -1,0 +1,201 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+body{
+    background-color: aquamarine;
+    height: 100vh;
+}
+.pag1{
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px blue solid;
+}
+.header .title{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    text-transform: capitalize;
+}
+.header .title p{
+    font-size: xx-large;
+    color: blue;
+}
+.header .title img{
+    border-radius: 50%;
+}
+.header .navbar{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header .navbar ul li{
+    list-style: none;
+    text-transform: capitalize;
+}
+.header .navbar ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+}
+.header .navbar ul li a:hover{
+    text-decoration: underline;
+    color: blue;
+    font-size: x-large;
+}
+@media (max-width:425px){
+    .header .navbar{
+        display: none;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+    }
+     .button ul li{
+        list-style: none;
+    }
+     .button ul li a{
+        text-decoration: none;
+    }
+    .button ul li button{
+        width: 380px;
+    }
+     .button ul li button a{
+        transition: 1s;
+        width: 400px;
+    }
+     .button ul li a button:hover{
+        background-color: blue;
+        color: white;
+    }
+}
+@media (max-width:375px){
+    .header .navbar{
+        display: none;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+    }
+     .button ul li{
+        list-style: none;
+    }
+     .button ul li a{
+        text-decoration: none;
+    }
+    .button ul li button{
+        width: 340px;
+    }
+     .button ul li button a{
+        transition: 1s;
+        width: 400px;
+    }
+     .button ul li a button:hover{
+        background-color: blue;
+        color: white;
+    }
+}
+@media (max-width:320px){
+    .header .navbar{
+        display: none;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+    }
+     .button ul li{
+        list-style: none;
+    }
+     .button ul li a{
+        text-decoration: none;
+    }
+    .button ul li button{
+        width: 290px;
+    }
+     .button ul li button a{
+        transition: 1s;
+        width: 400px;
+    }
+     .button ul li a button:hover{
+        background-color: blue;
+        color: white;
+    }
+}
+@media (max-width:1500px) and (min-width:601px) {
+    .header #icon{
+        display: none;
+    }
+}
+.p{
+    margin-top: 11px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.p .p1{
+    font-size: x-large;
+    font-weight: bold;
+}
+.articals{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: blue;
+}
+.footer .call{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 10px;
+}
+.footer .call a{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    text-transform: capitalize;
+}
+.footer .face{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 10px;
+}
+.footer .face a{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    text-transform: capitalize;
+}
+.footer .wats{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 10px;
+}
+.footer .wats a{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    text-transform: capitalize;
+}

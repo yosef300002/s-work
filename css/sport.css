@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+.pagreligion{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.pagreligion .title{
+    font-size: xx-large;
+    color: blue;
+}
+.pagreligion .sh1{
+    margin-top: 31px;
+    margin-bottom: 11px;
+    font-size: x-large;
+    font-weight: bold;
+}
+.pagreligion .sh2{
+    font-weight: bold;
+    margin-bottom: 31px;
+}

@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+body{
+    background-color: aquamarine;
+}
+.content{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 31px;
+    padding: 31px;
+    position: center;
+}
+.content .top{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:31px
+}
+.content .top .artical1{
+    border: 3px white solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 11px;
+}
+.content .top .artical2{
+    border: 3px white solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 11px;
+}
+.content .top img{
+    width: 420px;
+}
+.content .top p{
+    width: 400px;
+    padding: 10px;
+}
+.content .top button{
+    padding: 10px;
+    transition: 1s;
+    width: 100px;
+}
+.content .top button:hover{
+    background-color: blue;
+    color: white;
+}
+.content .botton{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:31px
+}
+.content .botton .artical3{
+    border: 3px white solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 11px;
+}
+.content .botton .artical4{
+    border: 3px white solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 11px;
+}
+.content .botton img{
+    width: 420px;
+}
+.content .botton p{
+    width: 400px;
+    padding: 10px;
+}
+.content .botton button{
+    padding: 10px;
+    transition: 1s;
+    width: 100px;
+}
+.content .botton button:hover{
+    background-color: blue;
+    color: white;
+}

@@ -1,0 +1,180 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    direction: rtl;
+    font-family: sans-serif;
+}
+body{
+    width: 100vw;
+    background-color: aquamarine;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+    gap: 21px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+}
+.content .top{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 21px;
+}
+.content .botton{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 21px;
+}
+.content .top .artical1{
+    width: 490px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    border: 3px white solid;
+}
+.content .top .artical1 img{
+    width: 100%;
+}
+.content .top .artical1 p{
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.content .top .artical1 button{
+    width: 100px;
+    transition: 1s;
+    text-transform: capitalize;
+    margin-bottom: 7px;
+}
+.content .top .artical1 button a{
+    text-decoration: none;
+    color: black;
+}
+.content .top .artical1 button:hover{
+    background-color: blue;
+    color: white;
+}
+.content .top .artical1 button:hover a{
+    background-color: blue;
+    color: white;
+}
+.content .top .artical2{
+    width: 490px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    border: 3px white solid;
+}
+.content .top .artical2 img{
+    width: 100%;
+}
+.content .top .artical2 p{
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.content .top .artical2 button{
+    width: 100px;
+    transition: 1s;
+    text-transform: capitalize;
+    margin-bottom: 7px;
+}
+.content .top .artical2 button a{
+    text-decoration: none;
+    color: black;
+}
+.content .top .artical2 button:hover{
+    background-color: blue;
+    color: white;
+}
+.content .top .artical2 button:hover a{
+    background-color: blue;
+    color: white;
+}
+.content .botton .artical3{
+    width: 490px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    border: 3px white solid;
+}
+.content .botton .artical3 img{
+    width: 100%;
+}
+.content .botton .artical3 p{
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.content .botton .artical3 button{
+    width: 100px;
+    transition: 1s;
+    text-transform: capitalize;
+    margin-bottom: 7px;
+}
+.content .botton .artical3 button a{
+    text-decoration: none;
+    color: black;
+}
+.content .botton .artical3 button:hover{
+    background-color: blue;
+    color: white;
+}
+.content .botton .artical3 button:hover a{
+    background-color: blue;
+    color: white;
+}
+.content .botton .artical4{
+    width: 490px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    border: 3px white solid;
+}
+.content .botton .artical4 img{
+    width: 100%;
+}
+.content .botton .artical4 p{
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.content .botton .artical4 button{
+    width: 100px;
+    transition: 1s;
+    text-transform: capitalize;
+    margin-bottom: 7px;
+}
+.content .botton .artical4 button a{
+    text-decoration: none;
+    color: black;
+}
+.content .botton .artical4 button:hover{
+    background-color: blue;
+    color: white;
+}
+.content .botton .artical4 button:hover a{
+    background-color: blue;
+    color: white;
+}
